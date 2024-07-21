@@ -3,7 +3,6 @@
 import { revalidatePath } from "next/cache";
 import { auth, signIn, signOut } from "./auth";
 import { supabase } from "./supabase";
-import { formToJSON } from "axios";
 import { getBookings } from "./data-service";
 import { redirect } from "next/navigation";
 
